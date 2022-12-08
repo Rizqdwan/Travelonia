@@ -1,0 +1,72 @@
+/* Home Page */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+.custom-font-navbar,
+.custom-font-desloc,
+.custom-about-font,
+.custom-font-footer {
+  font-family: "Poppins", sans-serif;
+}
+
+.custom-font-product-select,
+.costum-font {
+  font-family: "Roboto", sans-serif;
+}
+
+p.card-text {
+  font-size: 15px;
+}
+
+.btn-cari {
+  height: 10hv;
+}
+
+.custom-warna-nav {
+  color: #171717;
+}
+
+article.custome-section1 {
+  background: url("/Travelonia/public/assets/forest.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.custome-button2 {
+  width: 100px;
+}
+
+/* Detail Page */
+
+article.custome-section2 {
+  background-image: url("/Travelonia/public/assets/beautiful-forest.jpg");
+  background-size: 100% 50vh;
+  background-repeat: no-repeat;
+}
+
+.card-one {
+  margin: 100px;
+}
+
+.card-second {
+  margin-top: 20px;
+}
+
+.card-third {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.custom-warna-nav {
+  color: #171717;
+}
+
+.custome-text-harga {
+  font-family: "Padauk", sans-serif;
+  color: #317867;
+}
+
+.custome-button {
+  margin-top: 30px;
+  width: 50%;
+}
