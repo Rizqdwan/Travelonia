@@ -1,0 +1,137 @@
+/* Home Page */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+.custom-font-navbar,
+.custom-font-desloc,
+.custom-about-font,
+.custom-font-footer {
+  font-family: "Poppins", sans-serif;
+}
+
+.custom-font-product-select,
+.costum-font {
+  font-family: "Roboto", sans-serif;
+}
+
+p.card-text {
+  font-size: 15px;
+}
+
+.btn-cari {
+  height: 10hv;
+}
+
+.custom-warna-nav {
+  color: #171717;
+}
+
+article.custome-section1 {
+  background: url("/Travelonia/public/assets/forest.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.custome-button2 {
+  width: 100px;
+}
+
+.navbar {
+  box-shadow: 0 12px 20px rbga(0, 0, 0, 0.1);
+}
+
+.navbar-nav {
+  list-style: none;
+}
+.navbar-nav li a {
+  transition: all 0.3 ease 0s;
+  color: #121212;
+}
+
+.navbar-nav li a:hover {
+  color: #228b72;
+}
+
+.line-text {
+  position: relative;
+  top: 50%;
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+
+/* Detail Page */
+
+article.custome-section2 {
+  background-image: url("/Travelonia/public/assets/beautiful-forest.jpg");
+  background-size: 100% 50vh;
+  background-repeat: no-repeat;
+}
+
+.card-one {
+  margin: 100px;
+}
+
+.card-second {
+  margin-top: 20px;
+}
+
+.card-third {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.custom-warna-nav {
+  color: #171717;
+}
+
+.custome-text-harga {
+  font-family: "Padauk", sans-serif;
+  color: #317867;
+}
+
+.custome-button {
+  margin-top: 30px;
+  width: 50%;
+}
+
+/* .costume-animation2 {
+  animation: 1s ease-in 1s 1 coba;
+}
+
+.costume-animation3 {
+  animation: 1.3s ease-in 1.3s 1 coba;
+}
+
+.costume-animation4 {
+  animation: 1.4s ease-in 1.4s 1 coba;
+}
+
+.costume-animation5 {
+  animation: 1.5s ease-in 1.5s 1 coba;
+} */
+
+.costume-animation {
+  transition: transform 0.2s;
+}
+
+.costume-animation:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  position: rela;
+}
+
+@keyframes coba {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
